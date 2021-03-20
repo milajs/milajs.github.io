@@ -50,6 +50,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .description {
@@ -106,6 +107,37 @@ a {
   width: 18px;
   height: 18px;
   margin-left: 5px;
+}
+
+.language-link {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  opacity: 0.75;
+}
+
+@media (min-width: 780px) {
+  .language-link {
+    top: 0;
+  }
+}
+
+.language-link::before {
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #333;
+  width: 0%;
+  top: 21px;
+}
+
+.language-link:hover {
+  opacity: 1;
+}
+
+.language-link:hover::before {
+  width: 100%;
 }
 
 .text {
