@@ -1,17 +1,17 @@
-"use strict";
+'use strict'
 
-var element = document.getElementById("wave");
+var element = document.getElementById('wave')
 
 element.addEventListener(
-  "mouseover",
+  'mouseover',
   function (e) {
-    e.preventDefault;
+    e.preventDefault
 
-    element.classList.remove("greeting-animation");
+    element.classList.remove('greeting-animation')
 
-    void element.offsetWidth;
+    void element.offsetWidth
 
-    element.classList.add("greeting-animation");
+    element.classList.add('greeting-animation')
   },
   false
-);
+)
