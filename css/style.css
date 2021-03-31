@@ -3,21 +3,21 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
 }
 
 h1 {
   margin: 0;
   line-height: 1.5;
   font-size: 32px;
-  font-family: "Nunito";
+  font-family: 'Nunito';
 }
 
 h2 {
   margin: 0;
   line-height: 1.5;
   font-size: 24px;
-  font-family: "Nunito";
+  font-family: 'Nunito';
 }
 
 p {
@@ -41,7 +41,7 @@ a {
 @media (min-width: 780px) {
   .main-container {
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: max(20vw, 100px);
   }
 }
 
@@ -125,7 +125,7 @@ a {
 .language-link::before {
   transition: 300ms;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   background-color: #333;
   width: 0%;
@@ -176,7 +176,7 @@ a {
 .contact-text::before {
   transition: 300ms;
   height: 1px;
-  content: "";
+  content: '';
   position: absolute;
   background-color: #333;
   width: 0%;
