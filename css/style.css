@@ -1,9 +1,9 @@
 body {
-  color: #333;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'OpenSans';
+  color: #333;
 }
 
 h1 {
@@ -123,13 +123,13 @@ a {
 }
 
 .language-link::before {
-  transition: 300ms;
+  top: 21px;
+  width: 0%;
   height: 1px;
   content: '';
   position: absolute;
   background-color: #333;
-  width: 0%;
-  top: 21px;
+  transition: 300ms;
 }
 
 .language-link:hover {
@@ -169,18 +169,18 @@ a {
 
 .contact-text {
   position: relative;
-  transition: 300ms;
   opacity: 0.75;
+  transition: 300ms;
 }
 
 .contact-text::before {
-  transition: 300ms;
+  top: 21px;
+  width: 0%;
   height: 1px;
+  transition: 300ms;
   content: '';
   position: absolute;
   background-color: #333;
-  width: 0%;
-  top: 21px;
 }
 
 .contact-row:hover .contact-text {
