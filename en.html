@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/dark-theme.css" /> 
 
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
   </head>
@@ -23,6 +24,15 @@
   <body>
     <div class="main-container">
       <div class="main-block">
+        <div class="top-controls">
+          <a class="language-link" href="./index.html">Ru</a>
+
+          <button id="theme-toggle" class="theme-toggle">
+            <span class="light-theme-icon">🌞</span>
+            <span class="dark-theme-icon">🌙</span>
+          </button>
+        </div>
+
         <div class="row">
           <h1>Hi</h1>
           <img
@@ -32,7 +42,7 @@
           />
         </div>
 
-        <h1>I'm Lyudmila Abramova</h1>
+        <h1>I'm Mila Abramova</h1>
 
         <div class="description">
           <p>
@@ -49,8 +59,6 @@
             Looking for interesting projects and a&#160;team of&#160;motivated
             people
           </p>
-
-          <a class="language-link" href="./index.html">Ru</a>
         </div>
       </div>
 
@@ -126,5 +134,6 @@
     </div>
 
     <script src="./restart_animation.js"></script>
+    <script src="./theme-switcher.js"></script> 
   </body>
 </html>
