@@ -16,13 +16,22 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="stylesheet" href="./css/dark-theme.css" /> 
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
   </head>
 
   <body>
     <div class="main-container">
       <div class="main-block">
+        <div class="top-controls">
+          <a class="language-link" href="./en.html">En</a>
+
+          <button id="theme-toggle" class="theme-toggle">
+            <span class="light-theme-icon">🌞</span>
+            <span class="dark-theme-icon">🌙</span>
+          </button>
+        </div>
+        
         <div class="row">
           <h1>Привет</h1>
           <img
@@ -48,8 +57,6 @@
             <br />
             Ищу интересные проекты и&#160;команду заряженных&#160;людей
           </p>
-
-          <a class="language-link" href="./en.html">En</a>
         </div>
       </div>
 
@@ -130,5 +137,6 @@
     </div>
 
     <script src="./restart_animation.js"></script>
+    <script src="./theme-switcher.js"></script> 
   </body>
 </html>

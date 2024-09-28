@@ -1,0 +1,31 @@
+body.dark-theme {
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  .dark-theme .main-block,
+  .dark-theme .subtitle,
+  .dark-theme .text,
+  .dark-theme .contact-text {
+    color: #ffffff;
+  }
+  
+  .dark-theme a {
+    color: #fff;
+  }
+  
+  .dark-theme .theme-toggle .light-theme-icon {
+    display: none;
+  }
+  
+  .dark-theme .theme-toggle .dark-theme-icon {
+    display: inline;
+  }
+
+  .dark-theme .language-link::before {
+    background-color: #fff;
+  }
+
+  .dark-theme .contact-text::before {
+    background-color: #fff;
+  }
